@@ -1,0 +1,386 @@
+/* Empty. Add your own CSS if you like */
+.like {
+	color: blue !important;
+}
+
+.vote {
+	color: red !important;
+	font-size: 25pt;
+}
+
+.vote-details {
+	color: white !important;
+	font-size: 15px;
+	float: left;
+	margin-left: 10px;
+}
+
+.subdued {
+	font-size: 15px !important;
+}
+
+.main {
+	border: none !important;
+}
+
+.vote-comment-details {
+	font-size: 15px;
+	float: left;
+	margin-left: 10px;
+}
+
+.vote-button-icon {
+	font-size: 15px;
+}
+
+.comment {
+	color: blue;
+	font-size: 25pt;
+}
+
+.comment-details {
+	cursor: pointer;
+	color: white !important;
+	font-size: 15px;
+	float: right;
+	margin-right: 10px;
+}
+
+.comment-details-icon {
+	font-size: 15px;
+	color: blue !important;
+}
+
+.share {
+	color: blue;
+	font-size: 25pt;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.vote-container {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.vote-details-icon {
+	font-size: 15px;
+	color: red !important;
+}
+
+.comment-container {
+	float: left;
+	width: 50%;
+	/*margin-left: 20px;*/
+	text-align: center;
+}
+
+.item-body-description {
+	margin: 10px;
+}
+
+.card {
+	margin-bottom: 10px !important;
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-bottom: 0px !important;
+}
+.share-container {
+	float: left;
+	width: 20%;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.feed-container {
+	background-color: #E9EBEE !important;
+}
+
+.main {
+	padding: 10px;
+	height: 100%;
+	background-image: url("../img/home.png");
+}
+
+.main-details {
+	background: black;
+	height: 100%;
+	width: 100%;
+}
+
+.social-login-container {
+	width: 100%;
+}
+
+.fb-login-container {
+	float: left;
+	width: 48%;
+	/*margin-right: 5px;*/
+	text-align: center;
+	/*margin-right: 5px;*/
+}
+
+.tw-login-container {
+	float: right;
+	width: 48%;
+	/*margin-left: 5px;*/
+	text-align: right;
+}
+
+.login-container {
+	width: 100%;
+}
+
+.ggbutton {
+	color: red !important;
+}
+
+.email-login-container {
+	float: left;
+	width: 48%;
+	text-align: center;
+	/*margin-left: 5px;*/
+	color: white;
+}
+
+.buttons {
+	margin-bottom: 10px;
+	margin-right: -10px !important;
+}
+
+.register-container {
+	float: left;
+	width: 48%;
+	text-align: center;
+	/*margin-left: 5px;*/
+	color: white;
+}
+
+.infor {
+	margin-bottom: 10px; margin-top: 20px;
+}
+
+.header-bar {
+	padding: 5px;
+	border-bottom: 1px solid grey;
+	background-color: #FCFCFC !important;
+}
+
+.header {
+	height: 60%;
+	width: 100%;
+	text-align: center;
+}
+
+.email {
+	border-radius: 5px;
+	background-color: #EAECE8;
+	padding-left: 10px !important;
+}
+
+.button-signup {
+	width: 100% !important;
+	margin-top: 10px !important;
+	margin-bottom: 5px;
+}
+
+.reset-button {
+	width: 100% !important;
+	margin-top: 10px !important;
+	margin-bottom: 5px;
+}
+
+.slogan {
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	margin: 10px;
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.logo {
+	margin-top: 40px;
+}
+
+.bottom {
+	margin-top: 50px;
+	height: 40%;
+	width: 100%;
+}
+
+.email-container {
+	margin-top: 10px;
+}
+
+.password-container {
+	margin-top: 10px;
+}
+
+.popup {
+	/*height: 300px;*/
+	background-color: #FCFCFC;
+}
+
+.popup-head {
+  background: #FCFCFC !important;
+}
+/*.popup-title {
+  color: #fff !important;
+}*/
+
+.popup-body{
+  background: #FCFCFC !important;
+/*  color:#fff !important;
+  font-size:24px !important;*/
+}
+
+body {
+	padding: 0px;
+}
+
+.forgot-password {
+	margin: 5px;
+}
+
+.button-signin {
+	width: 100% !important;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.feed-title {
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.feed-image-container {
+	/*display: table-cell;
+	vertical-align: middle;*/
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+.feed-image-container img {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	height: 65%;
+}
+
+.footer {
+	background: transparent;
+}
+
+.feed-image {
+	height: 400px;
+	width: 100%;
+	margin: auto auto;
+}
+
+.bar-footer{
+	height: 150px !important;
+}
+
+.foot-bar-container {
+	width: 100%;
+}
+
+.vote-comment-container {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 0.5px solid grey;
+}
+
+.feed-details-button-icon {
+	font-size: 15px;
+	color: white !important;
+}
+
+.feed-comment-icon-container {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 0.5px solid grey;
+	color: black;
+}
+
+.footer-comment {
+	position: relative;
+}
+
+.comment-form {
+	border-right: none !important;
+	border-left: none !important;
+	width: 100% !important;
+}
+
+.comment-detail-main {
+	height: 100%;
+}
+
+.comment-avatar {
+	float: left;
+	padding: 5px;
+}
+
+.comment-input {
+	padding-left: 10px !important;
+	padding-right: 5px;
+}
+
+.comment-avatar img {
+	width: 50px;
+	height: 50px;
+}
+
+.social-container {
+	margin: auto auto !important;
+	text-align: center !important;
+}
+
+.comment-item {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	/*border-bottom: 0.5px solid grey;*/
+	/*border-bottom-width: 50px*/;
+}
+
+.item{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	border-top: 0px !important;
+	border-right: 0px !important;
+	border-left: 0px !important;
+    border-bottom: 2px !important;
+
+}
+
+.item-header img {
+	width: 15%;
+	float: left;
+	margin: 5px;
+	margin-left: 0px;
+	margin-top: 5px;
+	border-radius: 50%;
+
+}
+
+.item-header h2 {
+	margin: 5px;
+}
+
+/*
+.header {
+	border-bottom: 1px solid grey;
+}*/

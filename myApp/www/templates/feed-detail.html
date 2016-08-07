@@ -1,0 +1,49 @@
+<ion-view view-title="FeedDetails" hide-nav-bar="true">
+  <ion-content >
+    <div class="main-details">
+    	<div class="feed-image-container">
+            <img src="img/place.jpg">   
+        </div>
+    </div>
+
+    <ion-footer-bar align-title="left" class="footer footer-feed">
+        <div class="foot-bar-container">
+            <div class="feed-title">
+                #Beautiful Place!
+            </div>
+            <div class="vote-comment-container">
+                <div class="vote-details">
+                    <a href="#" class="subdued ion-ios-heart vote-details-icon"></a> 10
+                </div>
+                <div class="comment-details" ng-click="openModal();">
+                     <a href="#" class="subdued ion-ios-chatbubble comment-details-icon"></a> 5 comments
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+            <div class="button-container">
+                <div class="vote-container">
+                    <div class="feed-details-button-icon">
+                        <a href="#" class="subdued ion-ios-heart vote-button-icon feed-details-button-icon"> Vote</a>
+                    </div>
+                </div>
+
+                <div class="comment-container" ng-click="openModal()">
+                    <div class="feed-details-button-icon">
+                        <a href="#" class="subdued ion-ios-chatbubble comment feed-details-button-icon"> Comment</a>
+                    </div>  
+                </div>
+
+                <div class="share-container">
+                    <div class="feed-details-button-icon">
+                        <a href="#" class="subdued ion-ios-redo share feed-details-button-icon"> Share</a>
+                    </div>             
+                </div>
+
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </ion-footer-bar>
+  </ion-content>
+</ion-view>

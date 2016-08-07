@@ -1,0 +1,40 @@
+<ion-view view-title="Login" hide-nav-bar="true">
+  <ion-content>
+    <div class="main">
+    	<div class="header">
+    		<div>
+    			<img src="img/logo.png" class="logo">
+    		</div>
+    		<div>
+    			<span class="slogan">This app help you connect to all people who like to go there</span>
+    		</div>
+    		
+    	</div>
+    	<div class="bottom">
+    		<div class="gg-login-container">
+    			<button class="button button-block button-light ggbutton" ng-click="googleSignIn()">Sign in with Google</button>
+    		</div>
+
+    		<div class="social-login-container">
+    			<div class="fb-login-container">
+    				<button class="button button-block button-positive" ng-click="facebookSignIn()">Facebook</button>
+    			</div>
+
+    			<div class="tw-login-container">
+    				<button class="button button-block  button-calm" ng-click="twLogin()">Twitter</button>
+    			</div>
+    		</div>
+
+    		<div class="login-container">
+    			<div class="email-login-container" ng-click="showSigninPopup();">
+    				Sign in with Email
+    			</div>
+
+    			<div class="register-container" ng-click="showSignupPopup();">
+    				Create Account
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  </ion-content>
+</ion-view>

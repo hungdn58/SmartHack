@@ -1,0 +1,86 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding feed-container" >
+  <ion-refresher
+      pulling-text="Pull to refresh..."
+      on-refresh="doRefresh()">
+    </ion-refresher>
+    <ion-list class="feed-container">
+      <ion-item class="feed-container" ng-repeat="feed in feeds">
+          <div class="list card ">
+
+            <div class="item item-header" >
+              <img src={{feed.avatar}}>
+              <h2>{{feed.name}}</h2>
+              <p>{{feed.created}}</p>
+            </div>
+
+            <div class="item item-body">
+              <img class="full-image" src={{feed.image}} ng-click="showFeedDetails();">
+              <span class="item-body-description">
+                {{feed.description}}
+              </span>
+
+              <p>
+
+              <div class="social-container">
+                <div class="vote-container">
+                  <div class="vote-infor">
+                    <a href="#/comments" class="subdued"> 2 Votes</a>
+                  </div>
+
+                  <div class="vote-icon">
+                    <a href="#/comments" class="subdued ion-ios-heart vote "></a>
+                  </div>
+                </div>
+
+                <div class="comment-container">
+                  <div class="comment-infor">
+                    <a href="#/comments" class="subdued"> 5 Comments</a>
+                  </div>
+                  <div class="comment-icon">
+                    <a href="#/comments" class="subdued ion-ios-chatbubble-outline comment"></a>
+                  </div>
+                  
+                </div>
+
+                <div class="share-container">
+                  <div class="share-infor">
+                    <a href="#/comments" class="subdued"> 5 Shares</a>
+                  </div>
+                  <div class="share-icon">
+                    <a href="#/comments" class="subdued ion-ios-redo-outline share"></a>
+                  </div>
+                  
+                </div>
+
+                <div class="clear">
+                </div>
+      
+              </div>
+
+              </p>
+
+              
+            </div>
+
+                
+              </p>
+
+              
+            </div>
+
+          </div>
+
+      </ion-item>
+    </ion-list>
+
+
+  <ion-infinite-scroll
+    on-infinite="loadMore()"
+    distance="1%">
+
+   <!-- <ion-infinite-scroll-content></ion-infinite-scroll-content> -->
+ </ion-infinite-scroll>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,36 @@
+<ion-header-bar class="bar-light header-bar">
+  <h1 class="title">Sign in</h1>
+  <div class="buttons">
+    <button class="button button-icon ion-compose ion-ios-close-outline" ng-click="hidePopup();"></button>
+  </div>
+</ion-header-bar>
+
+<div class="infor">
+  <span>Sign in with your email to see the amazing new things you've miss</span>
+</div>
+<div>
+  <div class="email-container">
+    <label class="item-input-wrapper">
+      <input type="text" placeholder="Email" class="email" id="email">
+    </label>
+    
+  </div>
+  <div class="password-container">
+   <label class="item-input-wrapper">
+      <input type="text" placeholder="Password" class="email" id="password">
+      <i class="icon ion-ios-eye placeholder-icon"></i>
+    </label>
+    
+  </div>
+
+  <div class="forgot-password" ng-click="showResetPopup();">
+    <i class="icon ion-android-alert"></i>
+    <span> Forgot password</span>
+  </div>
+
+  <div class="signin-button">
+    <button class="button-signin button button-positive " ng-click="singin();">
+      Sign in
+    </button>
+  </div>
+</div>
